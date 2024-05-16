@@ -9,7 +9,7 @@ import UIKit
 import WebKit
 
 // WKWebView 内存不释放的问题解决
-class SkxCommunityJavaScriptDelegate: NSObject, WKScriptMessageHandler {
+class SkxJavaScriptDelegate: NSObject, WKScriptMessageHandler {
     
     // WKScriptMessageHandler 这个协议类专门用来处理JavaScript调用原生OC的方法
     weak var scriptDelegate: WKScriptMessageHandler?

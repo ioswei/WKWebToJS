@@ -16,7 +16,7 @@
 		261B92232BF3392100F2F11A /* WebJsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B92222BF3392100F2F11A /* WebJsTests.swift */; };
 		261B922D2BF3392100F2F11A /* WebJsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B922C2BF3392100F2F11A /* WebJsUITests.swift */; };
 		261B922F2BF3392100F2F11A /* WebJsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B922E2BF3392100F2F11A /* WebJsUITestsLaunchTests.swift */; };
-		261B923C2BF342AF00F2F11A /* SkxCommunityJavaScriptDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B923B2BF342AF00F2F11A /* SkxCommunityJavaScriptDelegate.swift */; };
+		261B923C2BF342AF00F2F11A /* SkxJavaScriptDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B923B2BF342AF00F2F11A /* SkxJavaScriptDelegate.swift */; };
 		261B923E2BF3494000F2F11A /* JStoOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 261B923D2BF3494000F2F11A /* JStoOC.html */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,7 @@
 		261B92282BF3392100F2F11A /* WebJsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebJsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		261B922C2BF3392100F2F11A /* WebJsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebJsUITests.swift; sourceTree = "<group>"; };
 		261B922E2BF3392100F2F11A /* WebJsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebJsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		261B923B2BF342AF00F2F11A /* SkxCommunityJavaScriptDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkxCommunityJavaScriptDelegate.swift; sourceTree = "<group>"; };
+		261B923B2BF342AF00F2F11A /* SkxJavaScriptDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkxJavaScriptDelegate.swift; sourceTree = "<group>"; };
 		261B923D2BF3494000F2F11A /* JStoOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JStoOC.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,7 +107,7 @@
 				261B920B2BF3392000F2F11A /* AppDelegate.swift */,
 				261B920D2BF3392000F2F11A /* SceneDelegate.swift */,
 				261B920F2BF3392000F2F11A /* ViewController.swift */,
-				261B923B2BF342AF00F2F11A /* SkxCommunityJavaScriptDelegate.swift */,
+				261B923B2BF342AF00F2F11A /* SkxJavaScriptDelegate.swift */,
 				261B92112BF3392000F2F11A /* Main.storyboard */,
 				261B92142BF3392100F2F11A /* Assets.xcassets */,
 				261B92162BF3392100F2F11A /* LaunchScreen.storyboard */,
@@ -268,7 +268,7 @@
 				261B92102BF3392000F2F11A /* ViewController.swift in Sources */,
 				261B920C2BF3392000F2F11A /* AppDelegate.swift in Sources */,
 				261B920E2BF3392000F2F11A /* SceneDelegate.swift in Sources */,
-				261B923C2BF342AF00F2F11A /* SkxCommunityJavaScriptDelegate.swift in Sources */,
+				261B923C2BF342AF00F2F11A /* SkxJavaScriptDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

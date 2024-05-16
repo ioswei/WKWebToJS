@@ -28,7 +28,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         config.defaultWebpagePreferences = webpagePreferences
 
         // 自定义的WKScriptMessageHandler 是为了解决内存不释放的问题
-        let weakScriptMessageDelegate = SkxCommunityJavaScriptDelegate(delegate: self)
+        let weakScriptMessageDelegate = SkxJavaScriptDelegate(delegate: self)
         // 这个类主要用来做native与JavaScript的交互管理
         let wkUController = WKUserContentController()
         wkUController.add(weakScriptMessageDelegate, name: channelName)
